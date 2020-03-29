@@ -40,7 +40,10 @@ class NoteWrap extends React.Component {
                grid-template-rows: repeat(${Math.floor((window.innerHeight - 45) / (35))}, 25px);`);
      }
 
-     componentWillUnmount = () => window.removeEventListener('keydown', this.keyPressHandler);
+     componentWillUnmount = () => {
+          window.removeEventListener('resize', this.buildTemplateRows);
+          window.removeEventListener('keydown', this.keyPressHandler);
+     }
 
      keyPressHandler = (key) => {
           switch (key.code) {
@@ -159,7 +162,7 @@ class NoteWrap extends React.Component {
                               )
                          }
                     </TransitionGroup>
-                    <button onClick={this.addNote} className='noteWrap__button'>+</button>
+                    <button onClick={this.addNote} className='noteWrap__button' title="Add note">+</button>
                </>
           );
      }

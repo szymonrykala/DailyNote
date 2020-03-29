@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dailynote/static/css/main.a37f178c.chunk.css",
-    "main.js": "/dailynote/static/js/main.11f2ee6c.chunk.js",
-    "main.js.map": "/dailynote/static/js/main.11f2ee6c.chunk.js.map",
+    "main.js": "/dailynote/static/js/main.0c862db2.chunk.js",
+    "main.js.map": "/dailynote/static/js/main.0c862db2.chunk.js.map",
     "runtime-main.js": "/dailynote/static/js/runtime-main.a593d0ad.js",
     "runtime-main.js.map": "/dailynote/static/js/runtime-main.a593d0ad.js.map",
     "static/js/2.55c44962.chunk.js": "/dailynote/static/js/2.55c44962.chunk.js",
     "static/js/2.55c44962.chunk.js.map": "/dailynote/static/js/2.55c44962.chunk.js.map",
     "index.html": "/dailynote/index.html",
-    "precache-manifest.5cf33bef55d88b08fc1a836b2c6cfce6.js": "/dailynote/precache-manifest.5cf33bef55d88b08fc1a836b2c6cfce6.js",
+    "precache-manifest.3e29c01a93c0a6ea8ec0163288171010.js": "/dailynote/precache-manifest.3e29c01a93c0a6ea8ec0163288171010.js",
     "service-worker.js": "/dailynote/service-worker.js",
     "static/css/main.a37f178c.chunk.css.map": "/dailynote/static/css/main.a37f178c.chunk.css.map",
     "static/js/2.55c44962.chunk.js.LICENSE.txt": "/dailynote/static/js/2.55c44962.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.a593d0ad.js",
     "static/js/2.55c44962.chunk.js",
     "static/css/main.a37f178c.chunk.css",
-    "static/js/main.11f2ee6c.chunk.js"
+    "static/js/main.0c862db2.chunk.js"
   ]
 }

@@ -15,28 +15,28 @@ const AppInfo = () => {
                               <h4 className="info__textWrap--h4">Double click to edit!</h4>
                               <p className='info__textWrap--paragraph'>
                                    By double clicking the note banner you will
-                                    enter its editing mode!
-                         </p>
+                                   enter its editing mode!
+                              </p>
                          </li>
                          <li>
-                              <h4 className="info__textWrap--h4">Change of note color theme</h4>
+                              <h4 className="info__textWrap--h4">Change color theme</h4>
                               <p className='info__textWrap--paragraph'>
-                                   You have four colors to choose. Use Your
-                                   mouse by hovering burger icon on the note!
-                         </p>
+                                   You have four colors to choose.<br/>
+                                   Hover your mouse over burger icon on the note banner and select color!
+                              </p>
                          </li>
                          <li>
-                              <h4 className="info__textWrap--h4">Life data saving</h4>
+                              <h4 className="info__textWrap--h4">Live data saving</h4>
                               <p className='info__textWrap--paragraph'>
                                    Write a note whitout thinking about saving it!<br />
                                    Don't worry about saving the order, color or size of your notes
                                    - I've already done it for You 😉😎
-                         </p>
+                              </p>
                          </li>
                          <li>
                               <h4 className="info__textWrap--h4">Change the order of notes </h4>
                               <p className='info__textWrap--paragraph'>
-                                   Now You can move Your notes and decide what is most important to You.
+                                   Now You can move Your notes and decide what is the most important to You.
                                    To do that, hover hamburger icon on note You want to move.
                                   Second way is select note and  <b>press shift + leftArrow or rightArrow </b>
                                   to move.<br />

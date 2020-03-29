@@ -7,15 +7,6 @@ import NoteWrap from '../noteWrap/NoteWrap';
 import './App.scss';
 
 const App = () => {
-     function checkFirstUse() {
-          const storage = window.localStorage;
-          if (storage.getItem('firstUse') === null) {
-               window.location = '/info';
-          }
-          storage.setItem('firstUse', 'true');
-     }
-     // setTimeout(checkFirstUse,500);
-     checkFirstUse();
 
      return (
           <Router >
@@ -23,8 +14,8 @@ const App = () => {
                     <Header />
                     <main>
                          <Switch>
-                              <Route exact path="/" component={NoteWrap} />
-                              <Route path="/info" component={AppInfo} />
+                              <Route exact path="/dailynote" component={NoteWrap} />
+                              <Route path="/dailynote/info" component={AppInfo} />
                          </Switch>
                     </main>
                </div>

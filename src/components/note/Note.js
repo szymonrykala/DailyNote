@@ -72,23 +72,24 @@ const Note = (props) => {
                <div style={noteStyle}
                     className={'note ' + (props.selected ? ' note--selected ' : '') + (show ? 'note--show' : '')}
                     onMouseEnter={!show ? props.onMouseEnter : undefined}
+                    onDoubleClick={onDoubleClick} 
                >
                     <header className='noteHeader' onDoubleClick={onDoubleClick} >
                          <div className="noteHeader__pin" />
                          <ul className='dropDownMenu'>
-                              <li className='dropDownMenu__item'>
-                                   <Trash title='Remove!' height='25px' className='noteHeader__icon' onClick={props.onRemove} />
+                              <li className='dropDownMenu__item' title='Delete'>
+                                   <Trash height='25px' className='noteHeader__icon' onClick={props.onRemove} />
                               </li>
                               <li className='dropDownMenu__item'>
                                    <ul className="innerMenu">
                                         <li className="innerMenu__item">
                                              <ArrowUp className='noteHeader__icon' />
                                         </li>
-                                        <li className='innerMenu__item' onClick={() => props.setOrder(-1)} >
+                                        <li className='innerMenu__item' onClick={() => props.setOrder(-1)} title='Move left' >
                                              <ArrowUp className='noteHeader__icon' />
                                         </li>
-                                        <li className='innerMenu__item' onClick={() => props.setOrder(+1)}>
-                                             <ArrowDown className='noteHeader__icon' />
+                                        <li className='innerMenu__item' onClick={() => props.setOrder(+1)} title='Move right'>
+                                             <ArrowDown className='noteHeader__icon'/>
                                         </li>
                                    </ul>
                               </li>
@@ -107,7 +108,7 @@ const Note = (props) => {
                                    <Hamburger className='noteHeader__icon' />
                               </li>
                          </ul>
-                         <Eye className='noteHeader__icon' onClick={toggleShowNote} />
+                         <span title='Open note'><Eye className='noteHeader__icon' onClick={toggleShowNote} /></span> 
                     </header>
                     {
                          edit ?
