@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "091322d16bdbd654d5d6a411434d9e7b",
+    "revision": "2e8eb6b1d912ecc8c9abd0a6d9ba09db",
     "url": "/dailynote/index.html"
   },
   {
-    "revision": "de23586763e2861af3ff",
+    "revision": "c5b8141c51d68ca13d2c",
     "url": "/dailynote/static/css/main.a37f178c.chunk.css"
   },
   {
-    "revision": "9b1fc4e11e0f32aa36ff",
-    "url": "/dailynote/static/js/2.55c44962.chunk.js"
+    "revision": "5fe7e4484c91fa6d7985",
+    "url": "/dailynote/static/js/2.e1006623.chunk.js"
   },
   {
     "revision": "eb56b19eba63a53416f4fd778023529f",
-    "url": "/dailynote/static/js/2.55c44962.chunk.js.LICENSE.txt"
+    "url": "/dailynote/static/js/2.e1006623.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de23586763e2861af3ff",
-    "url": "/dailynote/static/js/main.8f37f470.chunk.js"
+    "revision": "c5b8141c51d68ca13d2c",
+    "url": "/dailynote/static/js/main.fd517f28.chunk.js"
   },
   {
     "revision": "ec4095eb7eed5a15379c",
