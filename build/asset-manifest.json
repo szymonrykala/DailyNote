@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dailynote/static/css/main.a37f178c.chunk.css",
+    "main.css": "/dailynote/static/css/main.cab9af9d.chunk.css",
     "main.js": "/dailynote/static/js/main.0c862db2.chunk.js",
     "main.js.map": "/dailynote/static/js/main.0c862db2.chunk.js.map",
     "runtime-main.js": "/dailynote/static/js/runtime-main.a593d0ad.js",
@@ -8,9 +8,9 @@
     "static/js/2.55c44962.chunk.js": "/dailynote/static/js/2.55c44962.chunk.js",
     "static/js/2.55c44962.chunk.js.map": "/dailynote/static/js/2.55c44962.chunk.js.map",
     "index.html": "/dailynote/index.html",
-    "precache-manifest.3e29c01a93c0a6ea8ec0163288171010.js": "/dailynote/precache-manifest.3e29c01a93c0a6ea8ec0163288171010.js",
+    "precache-manifest.80bf009b011a6a6a6c0e836ccda1e60b.js": "/dailynote/precache-manifest.80bf009b011a6a6a6c0e836ccda1e60b.js",
     "service-worker.js": "/dailynote/service-worker.js",
-    "static/css/main.a37f178c.chunk.css.map": "/dailynote/static/css/main.a37f178c.chunk.css.map",
+    "static/css/main.cab9af9d.chunk.css.map": "/dailynote/static/css/main.cab9af9d.chunk.css.map",
     "static/js/2.55c44962.chunk.js.LICENSE.txt": "/dailynote/static/js/2.55c44962.chunk.js.LICENSE.txt",
     "static/media/app.jpg": "/dailynote/static/media/app.ed079c16.jpg",
     "static/media/Header.scss": "/dailynote/static/media/cork-board.2541cc28.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a593d0ad.js",
     "static/js/2.55c44962.chunk.js",
-    "static/css/main.a37f178c.chunk.css",
+    "static/css/main.cab9af9d.chunk.css",
     "static/js/main.0c862db2.chunk.js"
   ]
 }
