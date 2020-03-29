@@ -1,0 +1,33 @@
+:root {
+  --textColor: #333c44;
+}
+a{
+     color:var(--textColor);
+     text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  color: var(--textColor);
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5{
+     margin: 15px 0px;
+}
+p{
+     margin:10px 0px;
+}
+ul{
+     margin:0px 0px;
+}
+
+main {
+  height: calc(100vh - 40px);
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
