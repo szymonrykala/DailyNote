@@ -1,6 +1,6 @@
 {
-  "short_name": "NApp",
-  "name": "NoteApp",
+  "short_name": "DNote",
+  "name": "Daily Note",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,7 +20,8 @@
   ],
   "start_url": ".",
   "homepage": ".",
-  "display": "fullscreen",
+  "display": "standalone",
+  "orientation":"portrait",
   "theme_color": "#ebcb33",
   "background_color": "#8384ab"
 }
