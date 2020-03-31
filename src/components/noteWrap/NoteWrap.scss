@@ -6,6 +6,12 @@
   grid-gap: 8px;
   overflow-y: auto;
   grid-template-columns: repeat(auto-fill, minmax(48px, 52px));
+  &::-webkit-scrollbar{
+     width:7px;
+     &-thumb{
+          background-color: #ebcb33;
+     }
+  }
   @media (max-width: 700px) {
     display: flex;
     flex-wrap: wrap;

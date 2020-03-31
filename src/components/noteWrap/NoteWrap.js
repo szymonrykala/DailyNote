@@ -99,6 +99,10 @@ class NoteWrap extends React.Component {
           const { notes } = this.state;
           notes[index][spanDirection] += num;
 
+          //minimum and maximum size control
+          if (notes[index][spanDirection] < 5) { notes[index][spanDirection] = 5; }
+          if (notes[index][spanDirection] > 19) { notes[index][spanDirection] = 19; }
+
           this.setState({ ...this.state, notes: notes });
           this.IDB.updateTable(notes);
      }
